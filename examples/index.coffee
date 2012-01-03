@@ -10,3 +10,10 @@ require '../'
 
 9.times (i) ->
 	console.log "Cats have #{i} lives"
+
+console.log 9.times (i) ->
+  "win #{i}"
+
+console.log 6.times('meow')
+
+console.log 6.times(1)

@@ -13,15 +13,43 @@ Ruby like time loop for your apps.
 ## Synopsis
 
 CoffeeScript:
-	
-	require 'times'
-	
-	5.times ->
-		console.log 'win'
-	
-	9.times (i) ->
-		console.log "Cats have #{i} lives"
-		
+
+```coffeescript
+require 'times'
+
+5.times ->
+	console.log 'win'
+
+9.times (i) ->
+	console.log "Cats have #{i} lives"
+
+console.log 9.times (i) ->
+	"win #{i}"
+
+console.log 6.times('meow')
+
+console.log 6.times(1)
+```
+
+JavaScript:
+
+```javascript
+require('times');
+
+5..times(function () {
+	console.log('win');
+});
+
+9..times(function (i) {
+	console.log('Cats have ' + i + ' lives')
+});
+
+console.log(9..times(function (i) { return 'win ' + i }));
+
+console.log((6).times('meow'));
+
+console.log((6).times(1));
+```
 ## Requirements
 
 - NPM (http://npmjs.org/)
