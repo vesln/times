@@ -1,0 +1,25 @@
+{
+    "name": "times"
+  , "version": "0.0.1"
+  , "description": "times loop for your coffee."
+  , "keywords": ["times", "times do", "times loop"]
+  , "author": "Veselin Todorov <hi@vesln.com>"
+  , "dependencies": {
+	  "package": "1.0.0"
+	, "coffee-script": "1.2.0"
+  }
+  , "devDependencies": {
+      "mocha": "0.3.3"
+    , "should": "0.3.2"
+  }
+  , "repository" : {
+      "type" : "git",
+      "url" : "http://github.com/vesln/times.git"
+  }
+  , "homepage": "http://github.com/vesln/times"
+  , "scripts": {
+      "test": "make test"
+  }
+  , "main": "./lib/times"
+  , "engines": { "node": ">= 0.6.0 < 0.7.0" }
+}
