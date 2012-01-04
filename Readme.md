@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/vesln/times.png)](http://travis-ci.org/vesln/times)
+
 # times - times loop for your coffee.
 
 http://github.com/vesln/times
