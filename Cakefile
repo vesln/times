@@ -1,5 +1,4 @@
 {spawn, exec} = require 'child_process'
-log = console.log
 
 task 'build', ->
   run 'coffee -o lib -c src/*.coffee'
