@@ -1,6 +1,8 @@
 
 0.1.2 / 2012-01-06 
 ==================
+
+  * Removed lib from the gitignore, because the dir will be ignored by npm
   * Removed unused var in the Cakefile
 
 0.1.1 / 2012-01-06 
