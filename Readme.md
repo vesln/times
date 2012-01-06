@@ -62,8 +62,9 @@ console.log((6).times(1));
 	$ npm install times
 
 ## Tests
-
-	$ make test
+	
+	$ npm install
+	$ cake test
 	
 ## Inspiration
 
