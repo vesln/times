@@ -5,7 +5,7 @@
 
 require 'should'
 
-times = require '../'
+times = require '../src/times'
 
 describe 'time', ->
 
